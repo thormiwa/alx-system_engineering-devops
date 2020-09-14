@@ -1,2 +1,4 @@
 #!/bin/bash
 echo Hello, World
+sudo chmod +x 0-hello_world.bin
+
