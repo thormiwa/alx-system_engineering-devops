@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# change localhost ip address and facebook.com ip address
+cp /etc/hosts ~/hosts.new
+sed -i 's/127.0.0.2/127.0.0.1/g' ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
