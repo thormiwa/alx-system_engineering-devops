@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that configures the SSH client configuraton file to connect to the server without password
+sudo nano /etc/ssh/sshd_config
+PasswordAuthentication no
